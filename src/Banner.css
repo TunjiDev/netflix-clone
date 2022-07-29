@@ -53,6 +53,20 @@
   );
 }
 
+@media (max-width: 500px) {
+  .banner__title {
+    font-size: 2rem;
+  }
+
+  .banner__contents {
+    margin-left: 10px;
+  }
+
+  .banner__description {
+    width: 100%;
+  }
+}
+
 @media (max-width: 400px) {
   .banner__title {
     font-size: 2rem;
